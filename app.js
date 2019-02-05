@@ -8,6 +8,7 @@ activeplayer=0;
 //console.log (dice);
 //document.querySelector('#current-' + activeplayer).textContent = dice;  // to change the elements of the webpage.
 
+//git commands
 document.querySelector('.dice').style.display='none';    //to hide the dice(also can be used in the form of css)
 
 document.querySelector('#score-0').textContent='0';     //for setting default value i.e 0
