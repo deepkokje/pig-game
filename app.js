@@ -43,9 +43,9 @@ document.querySelector('.button-hold').addEventListener('click', function(){
 scores[	activeplayer] += roundscore;
 //upadte ui
 document.querySelector('#score-' + activeplayer).textContent= scores[activeplayer];
-                  nextplayer();//DRY principle
+                  
 //check  if player won the game
-if(scores[activeplayer]>= 20){
+if(scores[activeplayer] >= 20){
 document.querySelector('#name-' + activeplayer).textContent='Winner!';
 document.querySelector('.dice').style.display ='none';
 document.querySelector('.player-' + activeplayer + '-panel').classList.add('winner');
@@ -66,3 +66,4 @@ function nextplayer(){
 	 document.querySelector('.player-1-panel').classList.toggle('active');
 	 document.querySelector('.dice').style.display='none'; //not to display dice=1
 }
+
