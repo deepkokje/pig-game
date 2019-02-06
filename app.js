@@ -49,7 +49,7 @@ if(scores[activeplayer] >= 20){
 document.querySelector('#name-' + activeplayer).textContent='Winner!';
 document.querySelector('.dice').style.display ='none';
 document.querySelector('.player-' + activeplayer + '-panel').classList.add('winner');
-document.querySelector('.player-' + activeplayer + '-panel').classList.remove('winner');
+document.querySelector('.player-' + activeplayer + '-panel').classList.remove('active');
 }	
 	else {
 		nextplayer();
