@@ -67,3 +67,4 @@ function nextplayer(){
 	 document.querySelector('.dice').style.display='none'; //not to display dice=1
 }
 
+
